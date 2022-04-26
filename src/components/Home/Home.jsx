@@ -3,7 +3,7 @@ import './Home.css';
 import lightbulb from '../../assets/getstarted/light-bulb.png';
 import map from '../../assets/getstarted/map.png';
 const Home = () => {
-  console.log(window.innerWidth);
+  console.log(window);
   return (
     <div className='home-container'>
       <div className='heading'>
