@@ -1,0 +1,54 @@
+.contact-us {
+  display: flex;
+  margin: 100px 100px 0 80px;
+}
+
+.contact-us__image {
+  margin-right: 10%;
+}
+.contact-us__image img {
+  width: 150%;
+}
+
+.contact-us__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: auto;
+}
+
+.right-title {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.right-description {
+  font-weight: 400;
+  font-size: 20px;
+  color: #8f95a5;
+  margin-top: 5%;
+}
+
+.right-buttons {
+  display: flex;
+  margin-top: 5%;
+}
+
+.right-buttons input {
+  border: 1px solid #8f95a5;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 450px;
+  height: 80px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #8f95a5;
+  padding: 30px;
+}
+
+.right-buttons button {
+  width: 264px;
+  height: 80px;
+  background: #263238;
+  border-radius: 10px;
+}
