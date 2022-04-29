@@ -1,0 +1,63 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 0 100px 0 80px;
+}
+
+.pricing-title {
+  font-weight: 600;
+  font-size: 48px;
+  margin: 10px 0;
+}
+.selfStudy__price {
+  background: #eeeeee;
+  border-radius: 5px;
+}
+
+.pricing-image {
+  display: flex;
+
+  flex-direction: column;
+}
+.selfStudy__price {
+  margin-top: auto;
+}
+
+.selfStudy__image {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+}
+
+.selfStudy__image img {
+  width: 80%;
+  object-fit: cover;
+}
+
+.selfStudy__title {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: auto;
+}
+
+.selfStudy__description {
+  font-weight: 400;
+  font-size: 20px;
+  color: #8f95a5;
+}
+
+.selfStudy__price-span {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.selfStudy__price {
+  padding: 1%;
+}
